@@ -22,7 +22,7 @@ body {
   text-transform: uppercase;
 }
 
-.cube {
+.package {
   color: #ccc;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
@@ -34,11 +34,11 @@ body {
   
 }
 
-.cube:hover {
+.package:hover {
     transform: rotateX(-90deg);
   }
 
-.top {
+.right {
   background: #fff;
   transform: rotateX(90deg) translate3d(0, 0, 2em);
 }
