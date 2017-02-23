@@ -1,0 +1,34 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html{
+
+	box-sizing: border-box;
+
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	font-family: $sans-serif;
+	width: 100%;
+	margin: 0;
+
+}
+
+.cube {
+  color: #ccc;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.85s cubic-bezier(.17,.67,.14,.93);
+	transform-style: preserve-3d;
+  transform-origin: 100% 50%;
+  width: 10em;
+  height: 4em;
+  
+  &:hover {
+    transform: rotateX(-90deg);
+  }
+}
