@@ -1,3 +1,7 @@
+html{
+  height: 1000px
+}
+
 body {
   background: #222;
 }
@@ -10,7 +14,17 @@ img{
   perspective: 1000;
   width: 10em;
   position: absolute;
-  top: 50%;
+  top: 100px;
+  left: 50%;
+  margin-left: -5em;
+  margin-top: -5em;
+}
+
+.scene-2 {
+  perspective: 1000;
+  width: 10em;
+  position: absolute;
+  top: 500px;
   left: 50%;
   margin-left: -5em;
   margin-top: -5em;
