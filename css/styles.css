@@ -38,17 +38,17 @@ img{
 }
 
 .package:hover {
-    transform: rotateX(-90deg);
+    transform: rotateY(90deg);
   }
 
 .right {
   background: #fff;
-  transform: rotateX(90deg) translate3d(0, 0, 2em);
+  transform: rotateY(-90deg) translate3d(0, 0, 3em);
 }
 
 .front {
   background: #222229;
   color: #fff;
   box-shadow: inset 0 0 0 5px #fff;
-  transform: translate3d(0, 0, 2em);
+  transform: translate3d(0, 0, 3em);
 }
